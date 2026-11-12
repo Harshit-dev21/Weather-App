@@ -4,7 +4,6 @@ const searchBtn = document.getElementById("searchBtn");
 const cityInput = document.getElementById("cityInput");
 const weatherResult = document.getElementById("weatherResult");
 
-// Search button click
 searchBtn.addEventListener("click", function () {
     const city = cityInput.value.trim();
 
@@ -17,14 +16,12 @@ searchBtn.addEventListener("click", function () {
     getWeather(city);
 });
 
-// Press Enter to search
 cityInput.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
         searchBtn.click();
     }
 });
 
-// Get weather data
 async function getWeather(city) {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${apiKey}&units=metric`;
 
