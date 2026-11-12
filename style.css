@@ -11,7 +11,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Navigation */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -31,14 +30,13 @@ body {
     font-size: 14px;
 }
 
-/* Main Container */
+
 .container {
     width: 90%;
     max-width: 1000px;
     margin: auto;
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
     padding: 85px 10px 45px;
@@ -71,7 +69,6 @@ body {
     margin-bottom: 30px;
 }
 
-/* Search Box */
 .search-box {
     display: flex;
     justify-content: center;
@@ -117,7 +114,6 @@ button:hover {
     box-shadow: 0 8px 25px rgba(99,102,241,0.35);
 }
 
-/* Weather Result */
 .weather-result {
     max-width: 650px;
     margin: 20px auto 70px;
@@ -146,7 +142,6 @@ button:hover {
     color: #aeb7d4;
 }
 
-/* Main Weather Details */
 .weather-card h2 {
     font-size: 28px;
     margin-bottom: 12px;
@@ -170,7 +165,6 @@ button:hover {
     margin-bottom: 25px;
 }
 
-/* Weather Information Cards */
 .weather-details {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -219,7 +213,6 @@ footer {
     font-size: 13px;
 }
 
-/* Mobile Responsive */
 @media (max-width: 600px) {
     .navbar {
         padding: 20px 5%;
